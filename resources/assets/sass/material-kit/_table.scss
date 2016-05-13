@@ -1,0 +1,48 @@
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 5px;
+    // border-bottom: 2px solid $table-border-color;
+}
+
+.table-striped {
+  > tbody > tr:nth-of-type(odd) {
+    background-color: $table-bg-accent;
+  }
+}
+
+.table-hover {
+  > tbody > tr:hover {
+    background-color: $table-bg-hover;
+  }
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > td,
+.table > tfoot > tr > th {
+    vertical-align: middle;
+    border-top: 1px solid $table-border-color;
+    font-size: $mdb-input-font-size-base;
+    font-family: $mdb-font-family;
+    font-weight: $font-weight-default;
+    height: $mdb-table-line-height-base;
+    line-height: $mdb-table-line-height-base;
+    // margin: 0;
+    // padding: 0;
+    > i.material-icons {
+      font-size: $mdb-table-line-height-base;
+      padding: 0;
+      margin: -7px 0;
+      height: $mdb-table-line-height-base;
+      line-height: $mdb-table-line-height-base;
+      vertical-align: middle;
+    }
+}
+
+th {
+    color: $mdb-input-placeholder-color;
+}
+
+td {
+  color: $text-color;
+}

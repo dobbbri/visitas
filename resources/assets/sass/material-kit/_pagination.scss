@@ -1,0 +1,91 @@
+.pagination {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    > li > a,
+    > li > span{
+        border: 0;
+        border-radius: 30px !important;
+        transition: all .3s;
+        padding: 0;
+        margin: 0 3px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        color: $gray-color;
+        font-weight: $font-weight-default;
+        font-size: $mdb-btn-font-size-base;
+        text-transform: uppercase;
+        text-align: center;
+        background: transparent;
+
+        &:hover,
+        &:focus{
+            color: $gray-color;
+        }
+    }
+
+    > .active > a,
+    > .active > span{
+        color: black;
+
+        &,
+        &:focus,
+        &:hover{
+            background-color: $brand-info;
+            border-color: $brand-info;
+            color: $white-color;
+            @include shadow-4dp();
+        }
+
+    }
+
+    // Colors
+    &.pagination-info{
+        > .active > a,
+        > .active > span{
+            &,
+            &:focus,
+            &:hover{
+                background-color: $brand-info;
+                border-color: $brand-info;
+            }
+        }
+    }
+
+    &.pagination-success{
+        > .active > a,
+        > .active > span{
+            &,
+            &:focus,
+            &:hover{
+                background-color: $brand-success;
+                border-color: $brand-success;
+            }
+        }
+    }
+
+    &.pagination-warning{
+        > .active > a,
+        > .active > span{
+            &,
+            &:focus,
+            &:hover{
+                background-color: $brand-warning;
+                border-color: $brand-warning;
+            }
+        }
+    }
+
+    &.pagination-danger{
+        > .active > a,
+        > .active > span{
+            &,
+            &:focus,
+            &:hover{
+                background-color: $brand-danger;
+                border-color: $brand-danger;
+            }
+        }
+    }
+}

@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('https://d3ki9tyy5l5ruj.cloudfront.net/obj/bb74ad96852359f6dc90ebfc50d469dd8049f758/ProximaNova-ThinWeb.eot');
+    src: url('https://d3ki9tyy5l5ruj.cloudfront.net/obj/bb74ad96852359f6dc90ebfc50d469dd8049f758/ProximaNova-ThinWeb.eot#iefix') format('embedded-opentype'),
+         url('https://d3ki9tyy5l5ruj.cloudfront.net/obj/084a894bbd8706d0cbf807a4dc4599c620ad9880/ProximaNova-ThinWeb.woff') format('woff');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('https://d3ki9tyy5l5ruj.cloudfront.net/obj/dd7728e9457a4fb3ca5cb820ea67ae686fc031fd/ProximaNova-LightWeb.eot');
+    src: url('https://d3ki9tyy5l5ruj.cloudfront.net/obj/dd7728e9457a4fb3ca5cb820ea67ae686fc031fd/ProximaNova-LightWeb.eot#iefix') format('embedded-opentype'),
+         url('https://d3ki9tyy5l5ruj.cloudfront.net/obj/4b32e816879bd81c207fac64aa05ff2144304ced/ProximaNova-LightWeb.woff') format('woff');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('https://d3ki9tyy5l5ruj.cloudfront.net/obj/57b041eaff7dcecdb2b0aba9bf46adad6b2dc173/ProximaNova-RegWeb.eot');
+    src: url('https://d3ki9tyy5l5ruj.cloudfront.net/obj/57b041eaff7dcecdb2b0aba9bf46adad6b2dc173/ProximaNova-RegWeb.eot#iefix') format('embedded-opentype'),
+         url('https://d3ki9tyy5l5ruj.cloudfront.net/obj/94054e2964ef3cd903af2146553ba83373464472/ProximaNova-RegWeb.woff') format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('https://d3ki9tyy5l5ruj.cloudfront.net/obj/d9012e698d8b8bcfa45ce52e6ea3a325cac5a716/ProximaNova-SboldWeb.eot');
+    src: url('https://d3ki9tyy5l5ruj.cloudfront.net/obj/d9012e698d8b8bcfa45ce52e6ea3a325cac5a716/ProximaNova-SboldWeb.eot#iefix') format('embedded-opentype'),
+         url('https://d3ki9tyy5l5ruj.cloudfront.net/obj/a1acbe88376c27142bc9e0b90e5f04a0efc03a85/ProximaNova-SboldWeb.woff') format('woff');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('https://d3ki9tyy5l5ruj.cloudfront.net/obj/b13d8032a1de59a2748bc1b4c20124916574ae7a/ProximaNova-BoldWeb.eot');
+    src: url('https://d3ki9tyy5l5ruj.cloudfront.net/obj/b13d8032a1de59a2748bc1b4c20124916574ae7a/ProximaNova-BoldWeb.eot#iefix') format('embedded-opentype'),
+         url('https://d3ki9tyy5l5ruj.cloudfront.net/obj/79c996a8a57525f38180031e641452ad2b2be11f/ProximaNova-BoldWeb.woff') format('woff');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('https://d3ki9tyy5l5ruj.cloudfront.net/obj/cd6da7d4134c513f8b22a5a6b8449371ed4228b6/ProximaNova-XboldWeb.eot');
+    src: url('https://d3ki9tyy5l5ruj.cloudfront.net/obj/cd6da7d4134c513f8b22a5a6b8449371ed4228b6/ProximaNova-XboldWeb.eot#iefix') format('embedded-opentype'),
+         url('https://d3ki9tyy5l5ruj.cloudfront.net/obj/79c4ecafa1dec92609f91bb6d381ef08a024ca1b/ProximaNova-XboldWeb.woff') format('woff');
+    font-weight: 800;
+}
+
+@import 'material-kit/variables';
+@import 'bootstrap';
+@import 'material-kit';
+//
+.Grid {
+    display: flex;
+    width: 60px;
+}
+.Grid-cell-30 {
+    flex: 30px 30px;
+}
+.center {
+    text-align: center;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.h30 {
+    height: 25px;
+    line-height: 25px;
+}
+
+.actions,
+.actions table,
+.actions table tr {
+    width: 30px;
+    padding: 0;
+    margin: 0
+}
+.actions table tr td {
+    width: 15px;
+    padding: 0;
+    margin: 0
+}
+
+.ml-24 {
+    margin-left: -24px;
+}
+
+.w30 {
+   width: 30px;
+}
+
+.p0 {
+    padding: 0;
+}
+
+.m0 {
+    margin: 0;
+}
+
+h3.popover-title {
+    display: none;
+}
+
+.inherit {
+    font-size: inherit;
+}
+
+.radio, .checkbox {
+    position: relative;
+    display: block;
+    margin-top: -12px;
+    margin-bottom: 0px;
+}
+
+.f24 {
+  font-size: 24px;
+}
+
+.tag {
+  min-width: 12px;
+  min-height: 12px;
+}
+
+.required-field,
+.required-field:after {
+    content: "*";
+    color: #f60;
+    margin-left: 2px;
+}
+
+.description {
+    font-size: 10px;
+    height: 12px;
+    line-height: 12px;
+    margin-left: 20px;
+    margin-top: -11px;
+    padding: 0;
+}
